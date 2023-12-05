@@ -30,7 +30,7 @@ python -m olive.workflows.run --config whisper_cpu_int8.json --setup
 python -m olive.workflows.run --config whisper_cpu_int8.json
 ```
 
-3. Move the resulting model from models/whisper_cpu_int8_0_model.onnx to the same directory as this code.
+3. Move the resulting model from `models/whisper_cpu_int8_0_model.onnx` to the same directory as this code.
 
 ### Start a web server
 Use NPM package `light-server` to serve the current folder at http://localhost:8888/.
